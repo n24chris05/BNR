@@ -117,5 +117,17 @@
     return _headerView;
 }
 
-//
+//delete row
+-(void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    //if the tble view is asking to commit a delete
+    if (editingStyle ==UITableViewCellEditingStyleDelete){
+        NSArray *items = [[BNRItemStore sharedStore]allItems];
+        BNRItem *item = items[indexPath.row];
+        [[BNRItemStore sharedStore]removeItem:item];
+        
+        //also remove that row from the table view with a an animation
+        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
+    }
+}
 @end
