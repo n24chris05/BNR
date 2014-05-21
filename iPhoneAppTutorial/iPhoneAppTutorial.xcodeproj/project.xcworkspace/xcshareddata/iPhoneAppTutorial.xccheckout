@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>467C33A9-BB81-455E-9AA8-A049DC3D50DB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iPhoneAppTutorial</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>A4C0C326-B2AF-4FC9-97D9-B19D346ADCC2</key>
+		<string>https://github.com/n24chris05/BNR.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iPhoneAppTutorial/iPhoneAppTutorial.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>A4C0C326-B2AF-4FC9-97D9-B19D346ADCC2</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/n24chris05/BNR.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>A4C0C326-B2AF-4FC9-97D9-B19D346ADCC2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A4C0C326-B2AF-4FC9-97D9-B19D346ADCC2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BNR</string>
+		</dict>
+	</array>
+</dict>
+</plist>

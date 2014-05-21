@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1F184AD0-A9B5-4DA5-A57F-F97DCAEF4A7A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iPhoneAppPractiseMVC</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D44FA64F-22C1-4E68-B742-987D08C21DF1</key>
+		<string>https://github.com/n24chris05/BNR.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iPhoneAppPractiseMVC/iPhoneAppPractiseMVC.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D44FA64F-22C1-4E68-B742-987D08C21DF1</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/n24chris05/BNR.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D44FA64F-22C1-4E68-B742-987D08C21DF1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D44FA64F-22C1-4E68-B742-987D08C21DF1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BNR</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+<<<<<<< HEAD
+	<string>A6C6711E-3494-4E17-B759-E30A0FED877D</string>
+=======
+	<string>20E79AFC-4492-4D51-B14D-FEEFEA3099B6</string>
+>>>>>>> FETCH_HEAD
+	<key>IDESourceControlProjectName</key>
+	<string>Simple Table</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+<<<<<<< HEAD
+		<key>79CDE999-A43E-45AF-B75B-AF0271631909</key>
+=======
+		<key>FCF9C21D-78B7-4172-A4D0-E61BD4CE768D</key>
+>>>>>>> FETCH_HEAD
+		<string>https://github.com/n24chris05/BNR.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Simple Table/Simple Table.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+<<<<<<< HEAD
+		<key>79CDE999-A43E-45AF-B75B-AF0271631909</key>
+=======
+		<key>FCF9C21D-78B7-4172-A4D0-E61BD4CE768D</key>
+>>>>>>> FETCH_HEAD
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/n24chris05/BNR.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+<<<<<<< HEAD
+	<string>79CDE999-A43E-45AF-B75B-AF0271631909</string>
+=======
+	<string>FCF9C21D-78B7-4172-A4D0-E61BD4CE768D</string>
+>>>>>>> FETCH_HEAD
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+<<<<<<< HEAD
+			<string>79CDE999-A43E-45AF-B75B-AF0271631909</string>
+=======
+			<string>FCF9C21D-78B7-4172-A4D0-E61BD4CE768D</string>
+>>>>>>> FETCH_HEAD
+			<key>IDESourceControlWCCName</key>
+			<string>BNR</string>
+		</dict>
+	</array>
+</dict>
+</plist>
