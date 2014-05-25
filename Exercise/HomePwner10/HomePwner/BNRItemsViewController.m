@@ -12,7 +12,7 @@
 
 @interface BNRItemsViewController ()
 
-
+@property (nonatomic, strong) IBOutlet UIView *headerView;
 
 @end
 
@@ -52,6 +52,9 @@
 
     [self.tableView registerClass:[UITableViewCell class]
            forCellReuseIdentifier:@"UITableViewCell"];
+
+    UIView *header = self.headerView;
+    [self.tableView setTableHeaderView:header];
 }
 
 
