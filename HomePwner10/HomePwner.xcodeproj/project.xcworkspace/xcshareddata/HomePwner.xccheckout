@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C18C3839-44E5-48B1-8B21-9F0D7996A073</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HomePwner</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D441E831-B03F-434A-8318-659048C236D9</key>
+		<string>https://github.com/n24chris05/BNR.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HomePwner10/HomePwner.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D441E831-B03F-434A-8318-659048C236D9</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/n24chris05/BNR.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D441E831-B03F-434A-8318-659048C236D9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D441E831-B03F-434A-8318-659048C236D9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BNR</string>
+		</dict>
+	</array>
+</dict>
+</plist>
