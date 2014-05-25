@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		926A69E91931071D008EACAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 926A69E81931071D008EACAA /* Foundation.framework */; };
+		926A69EB1931071D008EACAA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 926A69EA1931071D008EACAA /* CoreGraphics.framework */; };
+		926A69ED1931071D008EACAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 926A69EC1931071D008EACAA /* UIKit.framework */; };
+		926A69F31931071D008EACAA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 926A69F11931071D008EACAA /* InfoPlist.strings */; };
+		926A69F51931071D008EACAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 926A69F41931071D008EACAA /* main.m */; };
+		926A69F91931071D008EACAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 926A69F81931071D008EACAA /* AppDelegate.m */; };
+		926A69FB1931071D008EACAA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 926A69FA1931071D008EACAA /* Images.xcassets */; };
+		926A6A021931071D008EACAA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 926A6A011931071D008EACAA /* XCTest.framework */; };
+		926A6A031931071D008EACAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 926A69E81931071D008EACAA /* Foundation.framework */; };
+		926A6A041931071D008EACAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 926A69EC1931071D008EACAA /* UIKit.framework */; };
+		926A6A0C1931071D008EACAA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 926A6A0A1931071D008EACAA /* InfoPlist.strings */; };
+		926A6A0E1931071D008EACAA /* OreoFamilyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 926A6A0D1931071D008EACAA /* OreoFamilyTests.m */; };
+		926A6A1A19310786008EACAA /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 926A6A1819310786008EACAA /* ListViewController.m */; };
+		926A6A1B19310786008EACAA /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 926A6A1919310786008EACAA /* ListViewController.xib */; };
+		926A6A1F19310B07008EACAA /* DescriptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 926A6A1D19310B07008EACAA /* DescriptionViewController.m */; };
+		926A6A2019310B07008EACAA /* DescriptionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 926A6A1E19310B07008EACAA /* DescriptionViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		926A6A051931071D008EACAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 926A69DD1931071D008EACAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 926A69E41931071D008EACAA;
+			remoteInfo = OreoFamily;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		926A69E51931071D008EACAA /* OreoFamily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OreoFamily.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		926A69E81931071D008EACAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		926A69EA1931071D008EACAA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		926A69EC1931071D008EACAA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		926A69F01931071D008EACAA /* OreoFamily-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OreoFamily-Info.plist"; sourceTree = "<group>"; };
+		926A69F21931071D008EACAA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		926A69F41931071D008EACAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		926A69F61931071D008EACAA /* OreoFamily-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OreoFamily-Prefix.pch"; sourceTree = "<group>"; };
+		926A69F71931071D008EACAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		926A69F81931071D008EACAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		926A69FA1931071D008EACAA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		926A6A001931071D008EACAA /* OreoFamilyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OreoFamilyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		926A6A011931071D008EACAA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		926A6A091931071D008EACAA /* OreoFamilyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OreoFamilyTests-Info.plist"; sourceTree = "<group>"; };
+		926A6A0B1931071D008EACAA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		926A6A0D1931071D008EACAA /* OreoFamilyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OreoFamilyTests.m; sourceTree = "<group>"; };
+		926A6A1719310786008EACAA /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		926A6A1819310786008EACAA /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		926A6A1919310786008EACAA /* ListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
+		926A6A1C19310B07008EACAA /* DescriptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescriptionViewController.h; sourceTree = "<group>"; };
+		926A6A1D19310B07008EACAA /* DescriptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescriptionViewController.m; sourceTree = "<group>"; };
+		926A6A1E19310B07008EACAA /* DescriptionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DescriptionViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		926A69E21931071D008EACAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				926A69EB1931071D008EACAA /* CoreGraphics.framework in Frameworks */,
+				926A69ED1931071D008EACAA /* UIKit.framework in Frameworks */,
+				926A69E91931071D008EACAA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		926A69FD1931071D008EACAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				926A6A021931071D008EACAA /* XCTest.framework in Frameworks */,
+				926A6A041931071D008EACAA /* UIKit.framework in Frameworks */,
+				926A6A031931071D008EACAA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		926A69DC1931071D008EACAA = {
+			isa = PBXGroup;
+			children = (
+				926A69EE1931071D008EACAA /* OreoFamily */,
+				926A6A071931071D008EACAA /* OreoFamilyTests */,
+				926A69E71931071D008EACAA /* Frameworks */,
+				926A69E61931071D008EACAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		926A69E61931071D008EACAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				926A69E51931071D008EACAA /* OreoFamily.app */,
+				926A6A001931071D008EACAA /* OreoFamilyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		926A69E71931071D008EACAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				926A69E81931071D008EACAA /* Foundation.framework */,
+				926A69EA1931071D008EACAA /* CoreGraphics.framework */,
+				926A69EC1931071D008EACAA /* UIKit.framework */,
+				926A6A011931071D008EACAA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		926A69EE1931071D008EACAA /* OreoFamily */ = {
+			isa = PBXGroup;
+			children = (
+				926A69F71931071D008EACAA /* AppDelegate.h */,
+				926A69F81931071D008EACAA /* AppDelegate.m */,
+				926A6A1719310786008EACAA /* ListViewController.h */,
+				926A6A1819310786008EACAA /* ListViewController.m */,
+				926A6A1919310786008EACAA /* ListViewController.xib */,
+				926A6A1C19310B07008EACAA /* DescriptionViewController.h */,
+				926A6A1D19310B07008EACAA /* DescriptionViewController.m */,
+				926A6A1E19310B07008EACAA /* DescriptionViewController.xib */,
+				926A69FA1931071D008EACAA /* Images.xcassets */,
+				926A69EF1931071D008EACAA /* Supporting Files */,
+			);
+			path = OreoFamily;
+			sourceTree = "<group>";
+		};
+		926A69EF1931071D008EACAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				926A69F01931071D008EACAA /* OreoFamily-Info.plist */,
+				926A69F11931071D008EACAA /* InfoPlist.strings */,
+				926A69F41931071D008EACAA /* main.m */,
+				926A69F61931071D008EACAA /* OreoFamily-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		926A6A071931071D008EACAA /* OreoFamilyTests */ = {
+			isa = PBXGroup;
+			children = (
+				926A6A0D1931071D008EACAA /* OreoFamilyTests.m */,
+				926A6A081931071D008EACAA /* Supporting Files */,
+			);
+			path = OreoFamilyTests;
+			sourceTree = "<group>";
+		};
+		926A6A081931071D008EACAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				926A6A091931071D008EACAA /* OreoFamilyTests-Info.plist */,
+				926A6A0A1931071D008EACAA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		926A69E41931071D008EACAA /* OreoFamily */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 926A6A111931071D008EACAA /* Build configuration list for PBXNativeTarget "OreoFamily" */;
+			buildPhases = (
+				926A69E11931071D008EACAA /* Sources */,
+				926A69E21931071D008EACAA /* Frameworks */,
+				926A69E31931071D008EACAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OreoFamily;
+			productName = OreoFamily;
+			productReference = 926A69E51931071D008EACAA /* OreoFamily.app */;
+			productType = "com.apple.product-type.application";
+		};
+		926A69FF1931071D008EACAA /* OreoFamilyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 926A6A141931071D008EACAA /* Build configuration list for PBXNativeTarget "OreoFamilyTests" */;
+			buildPhases = (
+				926A69FC1931071D008EACAA /* Sources */,
+				926A69FD1931071D008EACAA /* Frameworks */,
+				926A69FE1931071D008EACAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				926A6A061931071D008EACAA /* PBXTargetDependency */,
+			);
+			name = OreoFamilyTests;
+			productName = OreoFamilyTests;
+			productReference = 926A6A001931071D008EACAA /* OreoFamilyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		926A69DD1931071D008EACAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Big Nerd Ranch";
+				TargetAttributes = {
+					926A69FF1931071D008EACAA = {
+						TestTargetID = 926A69E41931071D008EACAA;
+					};
+				};
+			};
+			buildConfigurationList = 926A69E01931071D008EACAA /* Build configuration list for PBXProject "OreoFamily" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 926A69DC1931071D008EACAA;
+			productRefGroup = 926A69E61931071D008EACAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				926A69E41931071D008EACAA /* OreoFamily */,
+				926A69FF1931071D008EACAA /* OreoFamilyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		926A69E31931071D008EACAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				926A69F31931071D008EACAA /* InfoPlist.strings in Resources */,
+				926A6A2019310B07008EACAA /* DescriptionViewController.xib in Resources */,
+				926A69FB1931071D008EACAA /* Images.xcassets in Resources */,
+				926A6A1B19310786008EACAA /* ListViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		926A69FE1931071D008EACAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				926A6A0C1931071D008EACAA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		926A69E11931071D008EACAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				926A69F91931071D008EACAA /* AppDelegate.m in Sources */,
+				926A6A1F19310B07008EACAA /* DescriptionViewController.m in Sources */,
+				926A69F51931071D008EACAA /* main.m in Sources */,
+				926A6A1A19310786008EACAA /* ListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		926A69FC1931071D008EACAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				926A6A0E1931071D008EACAA /* OreoFamilyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		926A6A061931071D008EACAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 926A69E41931071D008EACAA /* OreoFamily */;
+			targetProxy = 926A6A051931071D008EACAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		926A69F11931071D008EACAA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				926A69F21931071D008EACAA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		926A6A0A1931071D008EACAA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				926A6A0B1931071D008EACAA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		926A6A0F1931071D008EACAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		926A6A101931071D008EACAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		926A6A121931071D008EACAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OreoFamily/OreoFamily-Prefix.pch";
+				INFOPLIST_FILE = "OreoFamily/OreoFamily-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		926A6A131931071D008EACAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OreoFamily/OreoFamily-Prefix.pch";
+				INFOPLIST_FILE = "OreoFamily/OreoFamily-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		926A6A151931071D008EACAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OreoFamily.app/OreoFamily";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OreoFamily/OreoFamily-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OreoFamilyTests/OreoFamilyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		926A6A161931071D008EACAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OreoFamily.app/OreoFamily";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OreoFamily/OreoFamily-Prefix.pch";
+				INFOPLIST_FILE = "OreoFamilyTests/OreoFamilyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		926A69E01931071D008EACAA /* Build configuration list for PBXProject "OreoFamily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				926A6A0F1931071D008EACAA /* Debug */,
+				926A6A101931071D008EACAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		926A6A111931071D008EACAA /* Build configuration list for PBXNativeTarget "OreoFamily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				926A6A121931071D008EACAA /* Debug */,
+				926A6A131931071D008EACAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		926A6A141931071D008EACAA /* Build configuration list for PBXNativeTarget "OreoFamilyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				926A6A151931071D008EACAA /* Debug */,
+				926A6A161931071D008EACAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 926A69DD1931071D008EACAA /* Project object */;
+}

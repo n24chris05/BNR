@@ -1,27 +1,27 @@
 //
-//  FirstViewController.m
-//  NavigationLogic
+//  ListViewController.m
+//  OreoFamily
 //
-//  Created by Chris Arquelada on 5/24/14.
+//  Created by Chris Arquelada on 5/25/14.
 //  Copyright (c) 2014 Big Nerd Ranch. All rights reserved.
 //
 
-#import "FirstViewController.h"
-#import "SecondViewController.h"
+#import "ListViewController.h"
+#import "DescriptionViewController.h"
 
-@interface FirstViewController ()
+@interface ListViewController ()
 
 @end
 
-@implementation FirstViewController
+@implementation ListViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
-        tableViewData = [[NSArray alloc]initWithObjects:@"First row",@"Second row",@"Three row",nil];
-        self.title = @"FirstView";
+        tableViewData = [[NSArray alloc]initWithObjects:@"Oreo",@"Feebie",@"Mizzy",@"Feero",@"Zio",@"Yassi",@"Maru", nil];
+        self.title = @"Family List";
     }
     return self;
 }
@@ -45,16 +45,20 @@
         
     }
     cell.textLabel.text =[tableViewData objectAtIndex:indexPath.row];
+   
     
     return cell;
 }
--(void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    SecondViewController *secondView = [[SecondViewController alloc]initWithNibName:@"SecondViewController" bundle:nil];
+    DescriptionViewController *secondView = [[DescriptionViewController alloc]initWithNibName:@"DescriptionViewController" bundle:nil];
     secondView.rowSelectedPreviously = indexPath.row;
-    [self.navigationController pushViewController:secondView animated:YES];
 
+    [self.navigationController pushViewController:secondView animated:YES];
+    
 }
+
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];

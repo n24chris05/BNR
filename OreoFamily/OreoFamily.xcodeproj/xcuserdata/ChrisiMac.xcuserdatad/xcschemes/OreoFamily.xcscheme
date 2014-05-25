@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "927A94C01930E9EF002C1AFA"
-               BuildableName = "NavigationLogic.app"
-               BlueprintName = "NavigationLogic"
-               ReferencedContainer = "container:NavigationLogic.xcodeproj">
+               BlueprintIdentifier = "926A69E41931071D008EACAA"
+               BuildableName = "OreoFamily.app"
+               BlueprintName = "OreoFamily"
+               ReferencedContainer = "container:OreoFamily.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,14 +28,24 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "926A69FF1931071D008EACAA"
+               BuildableName = "OreoFamilyTests.xctest"
+               BlueprintName = "OreoFamilyTests"
+               ReferencedContainer = "container:OreoFamily.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "927A94C01930E9EF002C1AFA"
-            BuildableName = "NavigationLogic.app"
-            BlueprintName = "NavigationLogic"
-            ReferencedContainer = "container:NavigationLogic.xcodeproj">
+            BlueprintIdentifier = "926A69E41931071D008EACAA"
+            BuildableName = "OreoFamily.app"
+            BlueprintName = "OreoFamily"
+            ReferencedContainer = "container:OreoFamily.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -51,10 +61,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "927A94C01930E9EF002C1AFA"
-            BuildableName = "NavigationLogic.app"
-            BlueprintName = "NavigationLogic"
-            ReferencedContainer = "container:NavigationLogic.xcodeproj">
+            BlueprintIdentifier = "926A69E41931071D008EACAA"
+            BuildableName = "OreoFamily.app"
+            BlueprintName = "OreoFamily"
+            ReferencedContainer = "container:OreoFamily.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -69,10 +79,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "927A94C01930E9EF002C1AFA"
-            BuildableName = "NavigationLogic.app"
-            BlueprintName = "NavigationLogic"
-            ReferencedContainer = "container:NavigationLogic.xcodeproj">
+            BlueprintIdentifier = "926A69E41931071D008EACAA"
+            BuildableName = "OreoFamily.app"
+            BlueprintName = "OreoFamily"
+            ReferencedContainer = "container:OreoFamily.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

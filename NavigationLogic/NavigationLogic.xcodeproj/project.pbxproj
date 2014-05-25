@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		926A69D41930F48B008EACAA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 926A69D31930F48B008EACAA /* SecondViewController.m */; };
+		926A69D61930FBE5008EACAA /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 926A69D51930FBE5008EACAA /* SecondViewController.xib */; };
+		926A69DA193100C0008EACAA /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 926A69D8193100C0008EACAA /* ThirdViewController.m */; };
+		926A69DB193100C0008EACAA /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 926A69D9193100C0008EACAA /* ThirdViewController.xib */; };
 		927A94C61930E9EF002C1AFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927A94C51930E9EF002C1AFA /* UIKit.framework */; };
 		927A94C81930E9EF002C1AFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927A94C71930E9EF002C1AFA /* Foundation.framework */; };
 		927A94CA1930E9EF002C1AFA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927A94C91930E9EF002C1AFA /* CoreGraphics.framework */; };
@@ -21,6 +25,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		926A69D21930F48B008EACAA /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		926A69D31930F48B008EACAA /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		926A69D51930FBE5008EACAA /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		926A69D7193100C0008EACAA /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		926A69D8193100C0008EACAA /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		926A69D9193100C0008EACAA /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
 		927A94C11930E9EF002C1AFA /* NavigationLogic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationLogic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		927A94C51930E9EF002C1AFA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		927A94C71930E9EF002C1AFA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -88,6 +98,12 @@
 				927A94E21930EAD8002C1AFA /* FirstViewController.h */,
 				927A94E31930EAD8002C1AFA /* FirstViewController.m */,
 				927A94E41930EAD8002C1AFA /* FirstViewController.xib */,
+				926A69D21930F48B008EACAA /* SecondViewController.h */,
+				926A69D31930F48B008EACAA /* SecondViewController.m */,
+				926A69D51930FBE5008EACAA /* SecondViewController.xib */,
+				926A69D7193100C0008EACAA /* ThirdViewController.h */,
+				926A69D8193100C0008EACAA /* ThirdViewController.m */,
+				926A69D9193100C0008EACAA /* ThirdViewController.xib */,
 				927A94CC1930E9EF002C1AFA /* Supporting Files */,
 			);
 			path = NavigationLogic;
@@ -134,7 +150,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = "";
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = nothing;
 			};
 			buildConfigurationList = 927A94BB1930E9EF002C1AFA /* Build configuration list for PBXProject "NavigationLogic" */;
@@ -159,8 +175,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				926A69DB193100C0008EACAA /* ThirdViewController.xib in Resources */,
 				927A94D01930E9EF002C1AFA /* InfoPlist.strings in Resources */,
 				927A94D81930E9EF002C1AFA /* Default.png in Resources */,
+				926A69D61930FBE5008EACAA /* SecondViewController.xib in Resources */,
 				927A94DA1930E9EF002C1AFA /* Default@2x.png in Resources */,
 				927A94DC1930E9EF002C1AFA /* Default-568h@2x.png in Resources */,
 				927A94E61930EAD8002C1AFA /* FirstViewController.xib in Resources */,
@@ -174,6 +192,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				926A69D41930F48B008EACAA /* SecondViewController.m in Sources */,
+				926A69DA193100C0008EACAA /* ThirdViewController.m in Sources */,
 				927A94D21930E9EF002C1AFA /* main.m in Sources */,
 				927A94D61930E9EF002C1AFA /* BNRAppDelegate.m in Sources */,
 				927A94E51930EAD8002C1AFA /* FirstViewController.m in Sources */,
@@ -217,6 +237,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -284,6 +305,7 @@
 				927A94E11930E9EF002C1AFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

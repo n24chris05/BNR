@@ -1,15 +1,15 @@
 //
-//  BNRAppDelegate.m
-//  NavigationLogic
+//  AppDelegate.m
+//  OreoFamily
 //
-//  Created by Chris Arquelada on 5/24/14.
+//  Created by Chris Arquelada on 5/25/14.
 //  Copyright (c) 2014 Big Nerd Ranch. All rights reserved.
 //
 
-#import "BNRAppDelegate.h"
-#import "FirstViewController.h"
+#import "AppDelegate.h"
+#import "ListViewController.h"
 
-@implementation BNRAppDelegate
+@implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -18,14 +18,10 @@
     
     
     self.window.backgroundColor = [UIColor whiteColor];
-    FirstViewController *firstView = [[FirstViewController alloc]initWithNibName:@"FirstViewController" bundle:[NSBundle mainBundle]];
-    //create viewcontroller
     
-    UINavigationController *navController = [[UINavigationController alloc]initWithRootViewController:firstView ];
-    self.window.rootViewController=navController;
-    
-    
-    
+    ListViewController *listView = [[ListViewController alloc]initWithNibName:@"ListViewController" bundle:[NSBundle mainBundle]];
+    UINavigationController *navController = [[UINavigationController alloc]initWithRootViewController:listView];
+    self.window.rootViewController = navController;
     [self.window makeKeyAndVisible];
     return YES;
 }

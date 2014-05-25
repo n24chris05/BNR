@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>31DA1F82-B792-4132-BD11-BD189FA1DCE0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>OreoFamily</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>02E508B8-739C-4592-9E76-91AD95873C84</key>
+		<string>https://github.com/n24chris05/BNR.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>OreoFamily/OreoFamily.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>02E508B8-739C-4592-9E76-91AD95873C84</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/n24chris05/BNR.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>02E508B8-739C-4592-9E76-91AD95873C84</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>02E508B8-739C-4592-9E76-91AD95873C84</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BNR</string>
+		</dict>
+	</array>
+</dict>
+</plist>

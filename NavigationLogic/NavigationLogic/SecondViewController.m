@@ -1,27 +1,28 @@
 //
-//  FirstViewController.m
+//  SecondViewController.m
 //  NavigationLogic
 //
 //  Created by Chris Arquelada on 5/24/14.
-//  Copyright (c) 2014 Big Nerd Ranch. All rights reserved.
+//  Copyright (c) 2014 nothing. All rights reserved.
 //
 
-#import "FirstViewController.h"
 #import "SecondViewController.h"
+#import "ThirdViewController.h"
 
-@interface FirstViewController ()
+@interface SecondViewController ()
 
 @end
 
-@implementation FirstViewController
+@implementation SecondViewController
+
+@synthesize rowSelectedPreviously;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
-        tableViewData = [[NSArray alloc]initWithObjects:@"First row",@"Second row",@"Three row",nil];
-        self.title = @"FirstView";
+        self.title = @"Second View";
     }
     return self;
 }
@@ -50,15 +51,23 @@
 }
 -(void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    SecondViewController *secondView = [[SecondViewController alloc]initWithNibName:@"SecondViewController" bundle:nil];
-    secondView.rowSelectedPreviously = indexPath.row;
-    [self.navigationController pushViewController:secondView animated:YES];
-
+    NSString *selected = [tableViewData objectAtIndex:indexPath.row];
+    ThirdViewController *thirdView = [[ThirdViewController alloc]initWithNibName:@"ThirdViewController" bundle:nil];
+    thirdView.selectedData  =selected;
+    [self.navigationController pushViewController:thirdView animated:YES];
+    
 }
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    // Do any additional setup after loading the view.
+    if (rowSelectedPreviously ==0){
+        tableViewData = [NSArray arrayWithObjects:@"0",@"1" ,nil];
+    }else if (rowSelectedPreviously ==1){
+        tableViewData = [NSArray arrayWithObjects:@"2",@"3", nil];
+    }else {
+        tableViewData = [NSArray arrayWithObjects:@"4",@"5", nil];
+    }
 }
 
 - (void)didReceiveMemoryWarning
@@ -66,5 +75,16 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
 
 @end
