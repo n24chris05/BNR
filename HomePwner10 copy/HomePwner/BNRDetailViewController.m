@@ -7,11 +7,6 @@
 //
 
 #import "BNRDetailViewController.h"
-<<<<<<< HEAD
-
-@interface BNRDetailViewController ()
-
-=======
 #import "BNRItem.h"
 
 @interface BNRDetailViewController ()
@@ -23,13 +18,10 @@
 
 
 
->>>>>>> FETCH_HEAD
 @end
 
 @implementation BNRDetailViewController
 
-<<<<<<< HEAD
-=======
 -(void)viewDidAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
@@ -75,5 +67,4 @@
     self.navigationItem.title = item.itemName;
 }
 
->>>>>>> FETCH_HEAD
 @end
