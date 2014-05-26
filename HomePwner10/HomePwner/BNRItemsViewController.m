@@ -5,14 +5,14 @@
 //  Created by John Gallagher on 1/7/14.
 //  Copyright (c) 2014 Big Nerd Ranch. All rights reserved.
 //
-#import "BNRDetailViewController.h"
+
 #import "BNRItemsViewController.h"
 #import "BNRItemStore.h"
 #import "BNRItem.h"
 
 @interface BNRItemsViewController ()
 
-
+@property (nonatomic, strong) IBOutlet UIView *headerView;
 
 @end
 
@@ -23,20 +23,6 @@
     // Call the superclass's designated initializer
     self = [super initWithStyle:UITableViewStylePlain];
     if (self) {
-        
-        UINavigationItem *navItem = self.navigationItem;
-        navItem.title = @"Homepwner";
-        
-        //Create a new bar button item that will send
-        //addNewItem: to BNRItemsViewController
-        UIBarButtonItem *bbi = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemAdd
-                                                                            target:self
-                                                                            action:@selector(addNewItem:)];
-        
-        // set this bar button item as the right item in the navigation
-        navItem.rightBarButtonItem = bbi;
-        
-        navItem.leftBarButtonItem = self.editButtonItem;
     }
     return self;
 }
@@ -52,8 +38,24 @@
 
     [self.tableView registerClass:[UITableViewCell class]
            forCellReuseIdentifier:@"UITableViewCell"];
+
+    UIView *header = self.headerView;
+    [self.tableView setTableHeaderView:header];
 }
 
+- (UIView *)headerView
+{
+    // If you haven't loaded the headerView yet...
+    if (!_headerView) {
+
+        // Load HeaderView.xib
+        [[NSBundle mainBundle] loadNibNamed:@"HeaderView"
+                                      owner:self
+                                    options:nil];
+    }
+
+    return _headerView;
+}
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
@@ -99,19 +101,6 @@
     [[BNRItemStore sharedStore] moveItemAtIndex:sourceIndexPath.row
                                         toIndex:destinationIndexPath.row];
 }
--(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    BNRDetailViewController *detailViewController = [[BNRDetailViewController alloc]init];
-    
-    NSArray *items = [[BNRItemStore sharedStore]allItems];
-    BNRItem *selectedItem = items[indexPath.row];
-    
-    //give detail view controller a pointer to the item object in row
-    detailViewController.item =selectedItem;
-    
-    //PUsh it onto the top of the navigation controller's stack
-    [self.navigationController pushViewController:detailViewController animated:YES];
-}
 
 - (IBAction)addNewItem:(id)sender
 {
@@ -144,13 +133,6 @@
         // Enter editing mode
         [self setEditing:YES animated:YES];
     }
-}
-
--(void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-    
-    [self.tableView reloadData];
 }
 
 @end
