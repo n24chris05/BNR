@@ -24,7 +24,6 @@
 		520AA4AF187C4EF00048F174 /* BNRItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 520AA4AE187C4EF00048F174 /* BNRItemsViewController.m */; };
 		520AA4B2187C4F910048F174 /* BNRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 520AA4B1187C4F910048F174 /* BNRItem.m */; };
 		520AA4B5187C4FC00048F174 /* BNRItemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 520AA4B4187C4FC00048F174 /* BNRItemStore.m */; };
-		520AA4BB187C68590048F174 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 520AA4BA187C68590048F174 /* HeaderView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,7 +62,6 @@
 		520AA4B1187C4F910048F174 /* BNRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItem.m; sourceTree = "<group>"; };
 		520AA4B3187C4FC00048F174 /* BNRItemStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItemStore.h; sourceTree = "<group>"; };
 		520AA4B4187C4FC00048F174 /* BNRItemStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItemStore.m; sourceTree = "<group>"; };
-		520AA4BA187C68590048F174 /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,7 +132,6 @@
 				2766C477192F909F00106F4A /* BNRDetailViewController.h */,
 				2766C478192F909F00106F4A /* BNRDetailViewController.m */,
 				2766C479192F909F00106F4A /* BNRDetailViewController.xib */,
-				520AA4BA187C68590048F174 /* HeaderView.xib */,
 				520AA490187C4EC00048F174 /* Images.xcassets */,
 				520AA485187C4EC00048F174 /* Supporting Files */,
 			);
@@ -247,7 +244,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2766C47B192F909F00106F4A /* BNRDetailViewController.xib in Resources */,
-				520AA4BB187C68590048F174 /* HeaderView.xib in Resources */,
 				520AA489187C4EC00048F174 /* InfoPlist.strings in Resources */,
 				520AA491187C4EC00048F174 /* Images.xcassets in Resources */,
 			);
