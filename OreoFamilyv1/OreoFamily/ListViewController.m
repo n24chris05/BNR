@@ -23,6 +23,7 @@
         tableViewData = [[NSArray alloc]initWithObjects:@"Oreo",@"Feebie",@"Mizzy",@"Feero",@"Zio",@"Yassi",@"Maru", nil];
         UINavigationItem *navItem = self.navigationItem;
         navItem.title = @"Family";
+        
     }
     return self;
 }
@@ -71,5 +72,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
 
 @end
