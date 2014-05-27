@@ -5,19 +5,19 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>6A62F7BC-E71B-4E14-8D5E-CF08F6656429</string>
+	<string>A0C9D607-1DF9-4723-95F3-C300DFC12BB4</string>
 	<key>IDESourceControlProjectName</key>
-	<string>HomePwner</string>
+	<string>SetNav</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>02E508B8-739C-4592-9E76-91AD95873C84</key>
+		<key>E17EFCFC-27D2-45EF-9F7A-2FCB2B207881</key>
 		<string>https://github.com/n24chris05/BNR.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>HomePwner10 copy/HomePwner.xcodeproj/project.xcworkspace</string>
+	<string>SetNav/SetNav.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>02E508B8-739C-4592-9E76-91AD95873C84</key>
+		<key>E17EFCFC-27D2-45EF-9F7A-2FCB2B207881</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>02E508B8-739C-4592-9E76-91AD95873C84</string>
+	<string>E17EFCFC-27D2-45EF-9F7A-2FCB2B207881</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>02E508B8-739C-4592-9E76-91AD95873C84</string>
+			<string>E17EFCFC-27D2-45EF-9F7A-2FCB2B207881</string>
 			<key>IDESourceControlWCCName</key>
 			<string>BNR</string>
 		</dict>
